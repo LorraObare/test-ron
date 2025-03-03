@@ -40,3 +40,8 @@ background-color:#fff;
 	color: #000;
 
 }
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
