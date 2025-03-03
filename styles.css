@@ -30,3 +30,13 @@ ul li a{
 	transition: 0.5s ease;
 
 }
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+background-color:#fff;
+	color: #000;
+
+}
