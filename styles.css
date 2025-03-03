@@ -91,4 +91,32 @@ background-color:#fff;
 }
 .submenu{
     display: none;
+    top: 6%;
+    position: relative;
+}
+.submenu ul{
+    position: absolute;
+}
+
+.main ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .submenu ul{
+    display: block;
+    margin: 6px;
+}
+.main ul li:hover .submenu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
 }
