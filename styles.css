@@ -17,7 +17,10 @@ ul{
 	float:right;
 	list-style-type: none;
 	margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
 	margin-right:60px ;
+    font-size: 16px;
 }
 ul li{
 	display: inline-block;
